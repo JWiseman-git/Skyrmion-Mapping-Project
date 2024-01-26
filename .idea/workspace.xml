@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a1dae5-9567-477f-bc06-e1d0d2d57322" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ArrowGenerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GenerateLattice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generate Lattice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FieldCalculation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LatticePlotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateLattice.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenerateLattice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

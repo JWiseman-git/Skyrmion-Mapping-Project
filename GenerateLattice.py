@@ -3,7 +3,6 @@ from Constants import spinmag, mu_0, mu_B, psi, sep, sep_star
 import numpy as np
 import math
 import cmath
-import matplotlib.pyplot as plt
 
 """
 After specifing a lattice size, an atom's spin orientation at a given coordinate is determined by a Fourier transform 
@@ -128,72 +127,6 @@ for k in range(0, len(x)):
 
             spintest = sep*(direction[0][2].real)
             A.append([pos[0], pos[1], pos[2], 0, 0, spintest])
-
-'''
-Difference between analytical and numerical solutions calculated. A convergence test is also performed.
-'''
-
-pos = [2.2,0,0]  # Needs swapping out with raw input subject to constraints
-pos = [i * 1e-10 for i in pos]
-rs = []
-moments = []
-Bf = []
-ana_Bf = []
-Bf = []
-rvalue = 10*sep
-
-for i in range(0, len(A)):
-    rs.append(r_mod(pos, A[i][:3]))
-    s_f = spinmag/sep
-    moments.append([A[i][3]*s_f, A[i][4]*s_f, A[i][5]*s_f])
-
-
-I_vals = []
-for i in range(0, len(A)):
-    if rs[i] <= rvalue:
-        I_vals.append(i)
-    else:
-        i = i
-
-for i in range(0, len(I_vals)):
-    j = I_vals[i]
-    t = dipoletensor(pos, A[j][:3], rs[j])
-    m_a = np.array(moments[j]).reshape((3, 1))
-    [v] = B_field(t, m_a)
-    Bf.append(v)
-
-totalB = [sum(y) for y in zip(*Bf)]
-
-totalB_mag = (np.sqrt((totalB[0])*np.conj(totalB[0]) + (totalB[1])*np.conj(totalB[1])
-                      + (totalB[2])*np.conj(totalB[2])))
-totalB_mag = totalB_mag.real
-
-for i in range(0,len(I_vals)):
-    j = I_vals[i]
-    m_a = np.array(moments[j])
-
-    loc = np.array(A[j][:3])
-
-    [r] = analytical_sol(m_a,pos, loc, rs[j])
-
-    ana_Bf.append(r)
-
-totalB_ana = [sum(y) for y in zip(*ana_Bf)]
-totalB_ana_mag = (np.sqrt((totalB_ana[0])*np.conj(totalB_ana[0]) + (totalB_ana[1])*np.conj(totalB_ana[1])
-                      + (totalB_ana[2])*np.conj(totalB_ana[2])))
-totalB_ana_mag = totalB_ana_mag.real
-
-print('Numerical B vector',totalB)
-print('Analytical B vector',totalB_ana)
-print('Analytical solution:', totalB_ana_mag)
-print("Numerical Solution:", totalB_mag)
-print('Difference:', totalB_mag - totalB_ana_mag)
-
-'''
-Finally the plotting component of the script,
-shown using an x as the position of the point under consideration
-and using arrows are the spin directions of individual lattice points
-'''
 
 #Sphere_s_e = create_sphere(pos[0],pos[1],pos[2],rvalue)
 
