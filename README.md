@@ -7,4 +7,11 @@
 Included is a copy of the code used to generate the models and a copy of the final report.
 This model was completed for the research thesis element of my Physics masters at Durham University.
 
+**Usage guide**
+
+The code above is broken down into capabilities:
+
+1. [Generate Lattice Image](https://github.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/GenerateLattice.py) - Generate an image of a Skyrmion lattice in 2/3 dimensions.
+2. [Calculate Local Field Strength](https://github.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/FieldCalculation.py) - Calculate the local field being generated at a point specified by the user.
+
 
