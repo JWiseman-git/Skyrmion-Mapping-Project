@@ -11,7 +11,7 @@ This model was completed for the research thesis element of my Physics masters a
 
 The code above is broken down into capabilities:
 
-1. Generate an image of a Skyrmion lattice in 2/3 dimensions.
+1. [GenerateLattice] Generate an image of a Skyrmion lattice in 2/3 dimensions.
 2. Calculate the local field being generated at a point specified by the user.
 
 
