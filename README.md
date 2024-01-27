@@ -7,11 +7,16 @@
 Included is a copy of the code used to generate the models and a copy of the final report.
 This model was completed for the research thesis element of my Physics masters at Durham University.
 
-**Usage guide**
+**How To Use:**
+1. The first step is to clone this repository to your machine. Any changes you wish to make can be submitted as a pull request having first forked your local cloned repository. [More information on cloning and forking a repository](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
+1. iniating a class
+2. calling functions
+3. adding to the class 
+
+**Exploring the above:**
+After cloning this repository to your local 
 
 The code above is broken down into capabilities:
 
 1. [Generate Lattice Image](https://github.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/GenerateLattice.py) - Generate an image of a Skyrmion lattice in 2/3 dimensions.
 2. [Calculate Local Field Strength](https://github.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/FieldCalculation.py) - Calculate the local field being generated at a point specified by the user.
-
-
