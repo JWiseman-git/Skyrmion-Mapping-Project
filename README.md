@@ -6,6 +6,12 @@
 
 Included is a copy of the code used to generate the models and a copy of the final report.
 This model was completed for the research thesis element of my Physics masters at Durham University.
+This code represents one of the few solely Python based Skyrmion models published - Therefore making it wiidely accessible to undergraduates of Physics degrees familiar with the more commonly taught python language.
+
+
+**Basic Description of what is happening**
+
+Included within the report is an explanation of why we see helical spin structures within certain chiral crystal arrangements. Solutions to energy equations give us our extended spin topology. However, the purpose of this code is to demonstrate for different lattices what is occurig 
 
 **How To Use:**
 1. The first step is to clone this repository to your machine. Any changes you wish to make can be submitted as a pull request having first forked your local cloned repository. [More information on cloning and forking a repository](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)
