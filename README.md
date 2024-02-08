@@ -3,6 +3,8 @@
 (Temporary placeholder image)
 # Skyrmion Mapping
 
+[Download PDF](https://raw.githubusercontent.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/Download%20Final%20Report.pdf)
+
 ## _Boilerplate code for mapping skyrmion structures onto magnetic crystal lattices._
 
 Included is a copy of the code used to generate the models and a copy of the final report.
