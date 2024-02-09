@@ -1,6 +1,6 @@
 
-![Skyrmion Lattices](https://github.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/Download%20Final%20Report.pdf)
-(Temporary placeholder image)
+![Skyrmion Lattices](https://github.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/Images/Skyrmion%20Image.png)
+
 # Skyrmion Mapping
 
 [Download PDF](https://raw.githubusercontent.com/JWiseman-git/Skyrmion-Mapping-Project/main/Imaging%20Skyrmions%20using%20Implanted%20Muons.pdf)
