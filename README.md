@@ -3,7 +3,7 @@
 (Temporary placeholder image)
 # Skyrmion Mapping
 
-[Download PDF](https://raw.githubusercontent.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/Imaging%20Skyrmions%20using%20Implanted%20Muons.pdf)
+[Download PDF](https://raw.githubusercontent.com/JWiseman-git/Skyrmion-Mapping-Project/main/Imaging%20Skyrmions%20using%20Implanted%20Muons.pdf)
 
 ## _Boilerplate code for mapping skyrmion structures onto magnetic crystal lattices._
 
