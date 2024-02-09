@@ -1,5 +1,5 @@
 
-![Skyrmion Lattices](https://github.com/JWiseman-git/Skyrmion-Mapping-Project/assets/74243511/e8902b0c-6fb9-4bd4-98ea-b609b49ffd54)
+![Skyrmion Lattices](https://github.com/JWiseman-git/Skyrmion-Mapping-Project/blob/main/Download%20Final%20Report.pdf)
 (Temporary placeholder image)
 # Skyrmion Mapping
 
